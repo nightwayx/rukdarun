@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ประวัติโรงเรียน - โรงเรียนของเรา</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <style>
+    body {
+      background-color: rgb(255, 255, 255);
+      background-image: url('รักษ์ดรุณเนิสเซอรี่1.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      color: #ffffff;
+      text-shadow: 1px 1px 4px #ff69b4
+    }
+    .hero {
+      padding: 100px 0;
+      color: #ffffff;
+      text-shadow: 1px 1px 4px #ff69b4
+    }
+    footer {
+      background-color: #ff69b4; /* สีพื้นหลังใหม่ของ Footer */
+      color: #ffffff; /* สีตัวอักษรใน footer */
+      text-align: center;
+      padding: 1rem;
+      margin-top: auto;
+      width: 100%;
+      border: 2px solid #ffffff; /* กรอบข้อความใน Footer */
+      border-radius: 10px; /* มุมโค้งของกรอบ */
+    }
+    .navbar-brand img {
+      height: 40px; /* ปรับขนาดโลโก้ */
+      margin-right: 10px; /* ระยะห่างระหว่างโลโก้กับข้อความ */
+    }
+    .navbar {
+      background-color: #ff69b4; /* สีพื้นหลังของ Navbar */
+    }
+    .navbar .nav-link, .navbar-brand {
+      color: #ffffff !important; /* สีตัวอักษร */
+    }
+    .navbar .nav-link:hover {
+      color: #ffd700 !important; /* สีเมื่อวางเมาส์ */
+    }
+    
+  </style>
+  <link rel="icon" href="logo.png" sizes="192x192" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center dropdown-toggle" href="#" id="nurseryDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <img src="logo.png" alt="โลโก้โรงเรียน">
+        <span>รักษ์ดรุณเนิสเซอรี่</span>
+      </a>
+      <ul class="dropdown-menu" aria-labelledby="nurseryDropdown">
+        <li><a class="dropdown-item" href="index.html">หน้าแรก</a></li>
+        <li><a class="dropdown-item" href="about.html">เกี่ยวกับเรา</a></li>
+        <li><a class="dropdown-item" href="curriculum.html">หลักสูตร</a></li>
+        <li><a class="dropdown-item" href="activities.html">กิจกรรม</a></li>
+        <li><a class="dropdown-item" href="contact.html">ติดต่อเรา</a></li>
+      </ul>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">หน้าแรก</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              เกี่ยวกับเรา
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+              <li><a class="dropdown-item" href="history.html">ประวัติโรงเรียน</a></li>
+              <li><a class="dropdown-item" href="about.html">เกี่ยวกับเรา</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="curriculum.html">หลักสูตร</a></li>
+          <li class="nav-item"><a class="nav-link" href="activities.html">กิจกรรม</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">ติดต่อเรา</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container mt-5">
+    <h2>ประวัติโรงเรียน</h2>
+    <div class="p-4" style="border: 5px solid #ff69b4; border-radius: 10px; background-color: rgba(255, 255, 255, 0.473); color: #ffffff;">
+      
+      <p>วันที่ 1 พฤษภาคม 2538 จนถึง ปัจจุบัน และได้รับอนุญาตให้จัดตั้งสถานรับเลี้ยงเด็ก จากสำนักงาน พัฒนา สังคมและความมั่นคงของมนุษย์จังหวัด กระทรวงพัฒนาสังคมและความมั่นคงของมนุษย์ เมื่อวันที่ 28 กุมภาพันธ์ 2561 ใบอนุญาตเลขที่ 7/2561 รับเด็กที่มีอายุระหว่าง 1 เดือน - 4 ปี ประเภทไป - กลับจำนวนไม่เกิน 30 คน ใช้หลักสูตรการศึกษาปฐมวัย พุทธศักราช 2546 (สำหรับเด็กอายุต่ำกว่า 3 ปี) ของสำนัก วิชาการและมาตรฐานการศึกษา สำนักงานคณะกรรมการ การศึกษาชั้นพื้นฐาน กระทรวงศึกษาธิการ เปิดทำการเรียนการสอนตั้งแต่ภาคเรียนที่ 1 ปีการศึกษา 2538 เป็นต้นมาจนถึงปัจจุบัน โดยมีนางสาวลาภิสรา ผิวศรีเป็นผู้รับใบอนุญาต
+      </p>
+    </div>
+  </div>
+  
+
+<footer>
+  <p>&copy; 2023 โรงเรียนของเรา</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
